@@ -13,7 +13,7 @@ try:
 
 	cursor = cnx.cursor()
 
-	for id in range(1, 12000):
+	for id in range(1, 11510):
 		url = "http://www.lohechoenmexico.mx/mximg4/mximg_voto.php?&ID=%s" % id
 		f = urllib.urlopen(url)
 		html_content = f.read()

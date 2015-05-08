@@ -21,6 +21,6 @@ try:
 	print "Votos: %s" % votes.strip()
 	print "Imagen: %s" % image.strip()
 	print "Texto: %s" % text.strip()
-	
+
 except:
-	 print "Unexpected error:", sys.exc_info()[0]
+	 print "Error:", sys.exc_info()[1]

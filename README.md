@@ -31,7 +31,7 @@ El script se ejecuta sin parámetros:
 python concurso2.py
 ```
 En consola va mostrando las fotografías que se han procesado:
-```text
+```sh
 $ python concurso2.py
 Id: 1, Votos: 7
 Id: 2, Votos: 2

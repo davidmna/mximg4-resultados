@@ -6,8 +6,8 @@ Este script recibe el ID de la fotografía cargada en el concurso:
 ```sh
 python concurso1.py 78
 ```
-Respuesta:
-```text
+Resultado:
+```sh
 Id: 78
 Autor: Felipe Alberto Flores
 Votos: 2
@@ -15,7 +15,7 @@ Imagen: m_78_1511193_282636825218863_1322799978_n.jpg
 Texto: Col
 ```
 ####concurso2.py
-Este script procesa todas las fotografías cargadas en el concurso y las guarda en una base de datos MySQL. La estructura de la tabla es la siguiente:
+Este script procesa todos los registros de todas las fotografías cargadas en el concurso y los guarda en una base de datos MySQL. La estructura de la tabla es la siguiente:
 ```sql
 CREATE TABLE `photos` (
   `id` int(11) NOT NULL,
@@ -30,7 +30,7 @@ El script se ejecuta sin parámetros:
 ```sh
 python concurso2.py
 ```
-En consola va mostrando las fotografías que se han procesado
+En consola va mostrando las fotografías que se han procesado:
 ```text
 $ python concurso2.py
 Id: 1, Votos: 7

@@ -1,7 +1,7 @@
 # mximg4-resultados
 Este repositorio contiene varios scripts para procesar los resultados del concurso de fotografía **[México en una imagen 2014](http://www.lohechoenmexico.mx/mximg4/)**.
 
-####concurso1.py
+###concurso1.py
 Este script recibe el ID de la fotografía cargada en el concurso:
 ```sh
 python concurso1.py 78
@@ -14,7 +14,7 @@ Votos: 2
 Imagen: m_78_1511193_282636825218863_1322799978_n.jpg
 Texto: Col
 ```
-####concurso2.py
+###concurso2.py
 Este script procesa todos los registros de todas las fotografías cargadas en el concurso y los guarda en una base de datos MySQL. La estructura de la tabla es la siguiente:
 ```sql
 CREATE TABLE `photos` (

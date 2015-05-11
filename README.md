@@ -43,4 +43,8 @@ Id: 8, Votos: 363
 Id: 9, Votos: 15
 Id: 10, Votos: 274
 ````
-La base de datos completa que es cargada por el script se encuentra en assets.
+La base de datos completa que es generada por el script se encuentra en assets.
+
+###concurso3.py
+
+Pendiente.

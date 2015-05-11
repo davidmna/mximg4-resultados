@@ -15,7 +15,7 @@ Imagen: m_78_1511193_282636825218863_1322799978_n.jpg
 Texto: Col
 ```
 ###concurso2.py
-Este script procesa todos los registros de todas las fotografías cargadas en el concurso y los guarda en una base de datos MySQL. La estructura de la tabla es la siguiente:
+Este script procesa todos los registros de todas las fotografías cargadas en el concurso y los guarda en una tabla de MySQL. La estructura de la tabla es la siguiente:
 ```sql
 CREATE TABLE `photos` (
   `id` int(11) NOT NULL,

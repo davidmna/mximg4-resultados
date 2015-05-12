@@ -26,7 +26,7 @@ CREATE TABLE `photos` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 ```
-Se configura la conexión a partir de la línea #8:
+Se configura la conexión a partir de la [línea #8](https://github.com/davidmna/mximg4-resultados/blob/master/concurso2.py#L8):
 ```python
 cnx = mysql.connector.connect(
 		user='root', 

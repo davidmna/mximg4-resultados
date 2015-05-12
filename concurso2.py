@@ -13,7 +13,12 @@ try:
 
 	cursor = cnx.cursor()
 
-	for id in range(1, 11510):
+except:
+	print "Error:", sys.exc_info()[1]
+	exit()
+
+for id in range(1, 11510):
+	try:
 		url = "http://www.lohechoenmexico.mx/mximg4/mximg_voto.php?&ID=%s" % id
 		f = urllib.urlopen(url)
 		html_content = f.read()
@@ -28,14 +33,11 @@ try:
 			add_photo = ("INSERT INTO photos (id, author, votes, image, text) VALUES (%s, %s, %s, %s, %s)")
 			data_photo = (id, author, votes, image, text)
 			cursor.execute(add_photo, data_photo)
+	except:
+		print "Error:", sys.exc_info()[1]
 
-	#cnx.commit()
 
-except:
-	print "Error:", sys.exc_info()[1]
-
-finally:
-	if cursor:
-		cursor.close();
-	if cnx:
-		cnx.close();
+if cursor:
+	cursor.close();
+if cnx:
+	cnx.close();

@@ -51,7 +51,7 @@ Id: 8, Votos: 363
 Id: 9, Votos: 15
 Id: 10, Votos: 274
 ````
-La base de datos completa que es generada por el script se encuentra en assets.
+Un dump de la [base de datos completa](https://github.com/davidmna/mximg4-resultados/blob/master/assets/mximg4.sql) se encuentra en assets.
 
 ###concurso3.py
 
